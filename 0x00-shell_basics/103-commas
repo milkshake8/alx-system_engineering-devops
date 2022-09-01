@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a --format=commas --file-type \n
+ls -a --format=commas --file-type
