@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la | grep -c ^d
+find . -mindepth 1 -maxdepth 1 -type d -or -name ".*"| wc -l
